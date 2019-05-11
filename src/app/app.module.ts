@@ -4,10 +4,9 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { MatTreeModule } from '@angular/material/tree';
 import { EventsService } from './services/events.service';
 
-import { MatToolbarModule, MatIconModule } from '@angular/material';
+import { MatToolbarModule } from '@angular/material';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -18,8 +17,6 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatTreeModule,
-    MatIconModule,
     MatToolbarModule,
     HttpClientModule
   ],
