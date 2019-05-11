@@ -1,27 +1,47 @@
-# DitoTimeline
+# Dito Timeline #
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
+___
+## Sobre ##
 
-## Development server
+- Este projeto foi desenvolvido como parte do recrutamento da Dito
+- A aplicação foi feita utilizando Angular 7
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Pré requisitos ##
 
-## Code scaffolding
+- NodeJS >= 6.4.1 (https://nodejs.org/en)
+- Git (https://git-scm.com)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Componentes ##
 
-## Build
+> Componentes e frameworks utilizados no projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- [Angular] (https://angular.io/)
 
-## Running unit tests
+## Instalação ##
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> Rode os comandos abaixo numa CLI
 
-## Running end-to-end tests
+```sh
+git clone git@github.com:saulo-moura/dito-timeline.git {app-name}
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+> Caminhe para o diretório criado
 
-## Further help
+```sh
+cd {app-name}
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+> Execute o comando abaixo para instalar as dependências da aplicação
+
+```sh
+npm install
+```
+
+> Dentro do diretório o comando abaixo para executar a aplicação
+
+```sh
+ng serve -o
+```
+
+## Demonstração ##
+> Uma demonstração da funcionalidade pode ser vista em https://dito-recruitment.azurewebsites.net/
